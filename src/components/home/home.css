@@ -1,0 +1,15 @@
+.home {
+    margin-top: 5%;
+    color: white;
+    text-align: start;
+}
+
+.home-content {
+    background-color: #947667;
+    padding: 2%;
+}
+
+.home-image img {
+    height: 300px;
+    width: 100%;
+}
