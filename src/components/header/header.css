@@ -29,3 +29,17 @@
 .nav-links a {
     color: #947667;
 }
+
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #947667;
+    padding: 5% 2%;
+    margin: 1%;
+    font-size: small;
+}
+
+.drop-down a {
+    color: white;
+}
