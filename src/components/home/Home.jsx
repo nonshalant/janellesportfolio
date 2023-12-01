@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css'
-import image from '../../IMG_1345.pdf'
 import { Image } from 'cloudinary-react'
 import { FaCamera } from 'react-icons/fa'
 
@@ -8,7 +7,7 @@ const Home = () => {
   return (
     <div className='home'>
         <div className='home-content'>
-            <h1>an aspiring creator <FaCamera /></h1>
+            <h1>An Aspiring Creator <FaCamera /></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus dolores ratione temporibus officiis, recusandae aspernatur rem obcaecati eligendi</p>
         </div>
         <div className="home-image">

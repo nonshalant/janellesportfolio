@@ -3,6 +3,7 @@ import './header.css'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -14,11 +15,11 @@ const Header = () => {
                 <FaTiktok />
             </div>
             <h1>Janelle De Beq</h1>
-            <div className="nav-links">
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
-            </div>
+            <ul className="nav-links">
+              <Link to='/'><li>About</li></Link>
+              <Link to='/work'><li>Work</li></Link>
+              <Link to='/contact'><li>Contact</li></Link>
+            </ul>
         </nav>
     </header>
   )
