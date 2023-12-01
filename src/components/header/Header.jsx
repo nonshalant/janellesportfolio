@@ -14,7 +14,7 @@ const Header = () => {
                 <FaYoutube />
                 <FaTiktok />
             </div>
-            <h1>Janelle De Beq</h1>
+            <h1>Janelle De Bique</h1>
             <ul className="nav-links">
               <Link to='/'><li>About</li></Link>
               <Link to='/work'><li>Work</li></Link>
