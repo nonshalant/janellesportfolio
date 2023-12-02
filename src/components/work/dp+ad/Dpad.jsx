@@ -16,6 +16,7 @@ const Dpad = () => {
                 <h3>{film.directed}</h3>
                 <h3>{film.AD}</h3>
                 <h3>{film.DP}</h3>
+                <h4>desc: {film.description}</h4>
               </div>
             )
           }

@@ -8,7 +8,6 @@
 
 .thumbNail {
     padding-top: 8%;
-    /* margin: 0 2%; */
 }
 
 .thumbNail-details h2 {
@@ -22,4 +21,15 @@
 .thumbNail-details h3 {
     text-align: start;
     padding: 1%;
+}
+
+.thumbNail-details h4 {
+    text-align: start;
+    padding: 1%;
+    font-style: italic;
+    font-size: small;
+}
+
+.video {
+    margin-bottom: 10%;
 }

@@ -5,7 +5,8 @@ export const contentFile = [
         directed: 'Directed by Ryan Roman',
         DP: 'DP: Réal Gill ',
         AD: 'AD: Janelle De Bique',
-        videoUrl: 'https://www.youtube.com/embed/0kPZbJxlwik?si=9zLCH95Qm9PKeEv9'
+        videoUrl: 'https://www.youtube.com/embed/0kPZbJxlwik?si=9zLCH95Qm9PKeEv9',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero excepturi!'
     },
     {
         title: 'Oneiric ', 
