@@ -12,9 +12,9 @@ const Acting = () => {
               <div className="thumbNail-details">
                 <Image cloudName='dyzydm9nl' publicId={film.thumbNail}/>
                 <h2>{film.title}</h2>
-                <h3>{film.directed}</h3>
-                <h3>Lead Actress: {film.leadActress}</h3>
-                <h3>Assistant Sound Op: {film.assistantSoundOp}</h3>
+                <h3>Directed by <span>{film.directed}</span></h3>
+                <h3>Lead Actress: <span>{film.leadActress}</span></h3>
+                <h3>Assistant Sound Op: <span>{film.assistantSoundOp}</span></h3>
                 <h4>desc: {film.description}</h4>
               </div>
             )

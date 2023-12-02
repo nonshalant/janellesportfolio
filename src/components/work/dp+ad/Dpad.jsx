@@ -13,9 +13,9 @@ const Dpad = () => {
               <div className="thumbNail-details">
                 <Image cloudName='dyzydm9nl' publicId={film.thumbNail}/>
                 <h2>{film.title}</h2>
-                <h3>{film.directed}</h3>
-                <h3>{film.AD}</h3>
-                <h3>{film.DP}</h3>
+                <h3>Directed by: <span>{film.directed}</span></h3>
+                <h3>AD: <span>{film.AD}</span></h3>
+                <h3><span>{film.DP}</span></h3>
                 <h4>desc: {film.description}</h4>
               </div>
             )

@@ -30,6 +30,10 @@
     font-size: small;
 }
 
+.thumbNail-details span{
+    font-weight: 800;
+}
+
 .video {
     margin-bottom: 10%;
 }
