@@ -31,9 +31,9 @@ const Header = () => {
               {
                 dropDownOpen &&
                 <ul className='drop-down'>
-                  <Link to='/acting' onClick={closeDropDown}><li>Acting</li></Link>
-                  <Link to='/dp+ad' onClick={closeDropDown}><li>DP + AD</li></Link>
-                  <Link to='/directing+produced' onClick={closeDropDown}><li>Directing + Produced</li></Link>
+                  <Link to='work/acting' onClick={closeDropDown}><li>Acting</li></Link>
+                  <Link to='work/dp+ad' onClick={closeDropDown}><li>DP + AD</li></Link>
+                  <Link to='work/directing+produced' onClick={closeDropDown}><li>Directing + Produced</li></Link>
                 </ul>
               }
               <Link to='/contact' onClick={closeDropDown}><li>Contact</li></Link>

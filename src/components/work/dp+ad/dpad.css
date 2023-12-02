@@ -1,0 +1,21 @@
+.film-content {
+    background-color: #947667;
+}
+
+.thumbNail {
+    padding-top: 8%;
+    /* margin: 0 2%; */
+}
+
+.thumbNail-details h2 {
+    text-align: start;
+    padding: 1%;
+    font-size: larger;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.thumbNail-details h3 {
+    text-align: start;
+    padding: 1%;
+}
