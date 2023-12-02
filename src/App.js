@@ -4,6 +4,8 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Contact from './components/contact/Contact';
 import Dpad from './components/work/dp+ad/Dpad';
+import Acting from './components/work/acting/Acting';
+import DirectingAndProduced from './components/work/directing+produced/DirectingAndProduced';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/' element={<Contact/>}></Route>
         <Route path='/work/dp+ad' element={<Dpad/>}></Route>
+        <Route path='/work/acting' element={<Acting/>}></Route>
+        <Route path='/work/directing+produced' element={<DirectingAndProduced/>}></Route>
       </Routes>
       
     </div>
