@@ -9,7 +9,7 @@ const Header = () => {
   const [dropDownOpen, setDropDownOpen] = useState()
   
   const openDropDown = () => { 
-    setDropDownOpen(true)
+    setDropDownOpen(!dropDownOpen)
   }
   
   const closeDropDown = () => {
