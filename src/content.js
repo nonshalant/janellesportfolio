@@ -25,4 +25,21 @@ export const contentFile = [
         videoUrl: 'https://www.youtube.com/embed/H2zV9Pv93Ig?si=pMgBuIxrRbSbM7eU',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero excepturi'
     },
+    {
+        title: 'Spiritual Antenna A Loc Journey',
+        director: 'Janelle De Bique',
+        dp: 'Janelle De Bique',
+        gaffer: 'Janelle De Bique', 
+        sound: 'Janelle De Bique',
+        editor: 'Janelle De Bique',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero excepturi'
+    },
+    {
+        title: "Intrusive Thoughts",
+        directed : 'Shaye Tingling & Shaq Production', 
+        dp: 'Janelle De Bique',
+        soundOp: 'Sheena Leandes',
+        Editor: 'Janelle De Bique & Shaye Tingling',
+    }
+    
 ]
