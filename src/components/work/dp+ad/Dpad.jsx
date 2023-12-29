@@ -31,8 +31,8 @@ const Dpad = () => {
               <div className="thumbNail-details">
                 <h2>{film.title}</h2>
                 <h3>Directed by: <span>{film.directed}</span></h3>
-                <h3>AD: <span>{film.AD}</span></h3>
-                <h3><span>{film.DP}</span></h3>
+                <h3>Dp: <span>{film.dp}</span></h3>
+                <h3>Sound Op: <span>{film.soundOp}</span></h3>
                 <h4>desc: {film.description}</h4>
               </div>
             )

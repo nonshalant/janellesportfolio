@@ -43,3 +43,28 @@
 .video {
     margin-bottom: 10%;
 }
+
+@media screen and (min-width: 1023px){
+    .film-content {
+        gap: 10px;
+    }
+    .film-content2 {
+        gap: 10px;
+    }
+    .thumbNail{
+        margin: auto;
+        padding: 1.5%;
+    }
+    .thumbNail-details h2{
+        text-align: center;
+    }
+    .thumbNail-details h3{
+        text-align: center;
+    }
+    .thumbNail-details h4{
+        text-align: center;
+    }
+    .thumbNail-details{
+        align-items: center;
+    }
+}

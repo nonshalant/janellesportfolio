@@ -3,8 +3,8 @@ export const contentFile = [
         title: 'Fumbling Baddies', 
         thumbNail: 'https://res.cloudinary.com/dyzydm9nl/image/upload/v1701467850/Janelle%20Portfolio/IMG_4997_lvcwn9.jpg',
         directed: 'Ryan Roman',
-        DP: 'DP: Réal Gill ',
-        AD: 'AD: Janelle De Bique',
+        DP: ' Réal Gill ',
+        AD: ' Janelle De Bique',
         videoUrl: 'https://www.youtube.com/embed/0kPZbJxlwik?si=9zLCH95Qm9PKeEv9',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero excepturi!'
     },
@@ -40,6 +40,7 @@ export const contentFile = [
         dp: 'Janelle De Bique',
         soundOp: 'Sheena Leandes',
         Editor: 'Janelle De Bique & Shaye Tingling',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis vero excepturi'
     }
     
 ]
