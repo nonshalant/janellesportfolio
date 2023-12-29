@@ -37,6 +37,7 @@
 @media screen and (min-width: 1023px){
     .home-content {
         text-align: center;
+        padding: 5%;
     }
     .home-image {
         border: 1px solid;
